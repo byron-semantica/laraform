@@ -15,7 +15,7 @@ class TestForm extends \Laraform
       ],
       'tenant_details' => [
         'label' => 'Tenant Details',
-        'elements' => ['main_tenant_section','Full Name','Work Title','Address 1','Address 2','Address 3','Tenant Document Type','Passport','2nd Tenant Section','2nd Tenant Full Name','2nd Tenant Work Title','2nd Tenant Address 1','2nd Tenant Address 2','2nd Tenant Address 3','2nd Tenant Tenant Document Type','2nd Tenant Passport','Occupant Section','Occupant Details','Landlord Section','Landlord Full Name','Landlord Address 1','Landlord Address 2','Landlord Address 3','Consultant Name','Consultant Email','Consultant Phone','Consultant Role/Title','Consultant License Number'],
+        'elements' => ['main_tenant_section','Full Name','Work Title','Address 1','Address 2','Address 3','Tenant Document Type','Passport','2nd Tenant Section','2nd Tenant Full Name','2nd Tenant Work Title','2nd Tenant Address 1','2nd Tenant Address 2','2nd Tenant Address 3','2nd Tenant Document Type','2nd Tenant Passport','Occupant Section','Occupant Details','Landlord Section','Landlord Full Name','Landlord Address 1','Landlord Address 2','Landlord Address 3','Consultant Name','Consultant Email','Consultant Phone','Consultant Role/Title','Consultant License Number'],
         'labels' => [
           'previous' => 'Back',
           'next' => 'Next'
@@ -128,7 +128,7 @@ class TestForm extends \Laraform
         'label' => 'Address 3',
         'default' => ''
       ],
-      '2nd Tenant Document Type' => [
+      'Tenant Document Type' => [
         'type' => 'radiogroup',
         'label' => 'Tenant Document Type',
         'items' => [
@@ -163,7 +163,7 @@ class TestForm extends \Laraform
         'label' => '2nd Tenant Work Title',
         'default' => ''
       ],
-      '2nd Tenant 1ddress 3' => [
+      '2nd Tenant Address 1' => [
         'type' => 'text',
         'label' => '2nd Tenant Address 1',
         'default' => ''
