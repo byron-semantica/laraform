@@ -19,6 +19,7 @@
         "vue": "^2.7.14"
     },
     "dependencies": {
-        "@laraform/laraform": "^1.2.16"
+        "@laraform/laraform": "^1.2.16",
+        "bootstrap": "^4.6.2"
     }
 }
